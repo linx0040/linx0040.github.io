@@ -47,7 +47,8 @@ table{
   font-weight: normal; 
   table-layout:fixed;
   width:100%;
-  word-break:break-all;
+  word-break:keep-all;
+  word-wrap: break-word;
 }
 
 td {
@@ -67,6 +68,26 @@ th {
   padding:1vw 1vw;
   background-color:#ff963a;
   text-align:left;
+}
+
+th:nth-child(1)  {
+  width:11%;
+}
+
+th:nth-child(3)  {
+  width:31%;
+}
+
+th:nth-child(4)  {
+  width:13%;
+}
+
+th:nth-child(5)  {
+  width:13%;
+}
+
+th:nth-child(6)  {
+  width:15%;
 }
 
 ul {
