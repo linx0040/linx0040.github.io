@@ -46,6 +46,7 @@ table{
   border: 1px solid black;
   font-weight: normal; 
   max-width:100%;
+  table-layout:fixed;
 }
 
 td {
