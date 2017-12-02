@@ -48,6 +48,7 @@ table{
   table-layout:fixed;
   width:100%;
   font-size:1vw;
+  word-break:normal;
 }
 
 td {
