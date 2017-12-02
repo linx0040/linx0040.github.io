@@ -45,7 +45,7 @@ a {
 table{
   border: 1px solid black;
   font-weight: normal; 
-  width:100%;
+  max-width:100%;
 }
 
 td {
