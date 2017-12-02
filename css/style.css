@@ -42,11 +42,12 @@ a {
   color:inherit;
 }
 
-table {
+table{
   border: 1px solid black;
   font-weight: normal; 
   table-layout:fixed;
   width:100%;
+  font-size:1vm
   word-break:normal;
 }
 
@@ -244,7 +245,7 @@ a:hover {
   }
   #header #logo img {
     max-height: 30px;
-  
+  }
 }
 
 #header .social-nav {
@@ -1009,11 +1010,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
   .site-footer .list-inline li {
     display: inline-block;
-  }
-  table, td, th {
-    padding:0px;
-    margin:0px;
-    font-size:10px;
   }
 }
 
