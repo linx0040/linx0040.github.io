@@ -1013,7 +1013,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 480px) {
   .block {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
