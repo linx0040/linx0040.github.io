@@ -47,14 +47,13 @@ table{
   font-weight: normal; 
   table-layout:fixed;
   width:100%;
-  font-size:1vm
-  word-break:normal;
+  word-break:break-all;
 }
 
 td {
   border: 1px solid black;
   font-weight: normal; 
-  padding:5px 15px;
+  padding:1vw 1vw;
   background-color:#fff;
   text-align:left;
 }
@@ -65,7 +64,7 @@ td:nth-child(1) {
 
 th {
   border: 1px solid black;
-  padding:5px 15px;
+  padding:1vw 1vw;
   background-color:#ff963a;
   text-align:left;
 }
