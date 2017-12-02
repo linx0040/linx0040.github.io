@@ -13,6 +13,7 @@ p {
   color: #333;
   font-size: 400;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
+  margin:0 0 50px 0;
 }
 
 h1 {
@@ -41,6 +42,29 @@ a {
   transition: 0.5s;
   color:inherit;
 }
+
+table{
+  border: 1px solid black;
+  font-weight: normal; 
+  width:100%;
+}
+
+td {
+  border: 1px solid black;
+  font-weight: normal; 
+  padding:5px 15px;
+  background-color:#fff;
+}
+
+td:nth-child(1) {
+  background-color:#ffe3c9;
+}
+
+th {
+  border: 1px solid black;
+  padding:5px 15px;
+}
+
 
 /* ==================================================
   Elements
